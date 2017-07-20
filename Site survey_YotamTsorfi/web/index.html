@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>basic vote website</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    
+<body>
+  <h1>
+    What is your favorite programming language?
+  </h1>
+  <form action="Poll" method="post">
+   <div>
+      <input type="radio" name="userchoice" id="radio1" class="radio" value="Java" checked/>
+      <label for="radio1">Java</label>
+  </div>
+  <div>
+    <input type="radio" name="userchoice" id="radio2" class="radio" value="C++"/>
+  <label for="radio2">C++</label>
+  </div>
+  <div>	
+    <input type="radio" name="userchoice" id="radio3" class="radio" value="C"/>
+    <label for="radio3">C</label>
+  </div>
+  <div>	
+    <input type="radio" name="userchoice" id="radio4" class="radio" value="Python"/>
+    <label for="radio4">Python</label>
+  </div>
+  <div>	
+    <input type="radio" name="userchoice" id="radio5" class="radio" value="C#"/>
+    <label for="radio5">C#</label>
+  </div>
+  <div>	
+    <input type="submit" name="userchoice" id="submit" class="submit" value="Send"/>
+  </div>
+    <input type="hidden" name="pollname" value="programming language">
+  </form>
+</body>
+</html>

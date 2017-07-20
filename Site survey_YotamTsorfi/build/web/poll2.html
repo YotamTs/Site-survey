@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>basic vote website</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    
+<body>
+  <h1>
+    What is your favorite Color?
+  </h1>
+  <form action="Poll" method="post">
+   <div>
+      <input type="radio" name="userchoice" id="radio1" class="radio" value="Red" checked/>
+      <label for="radio1">Red</label>
+  </div>
+  <div>
+    <input type="radio" name="userchoice" id="radio2" class="radio" value="Blue"/>
+  <label for="radio2">Blue</label>
+  </div>
+  <div>	
+    <input type="radio" name="userchoice" id="radio3" class="radio" value="Yellow"/>
+    <label for="radio3">Yellow</label>
+  </div>
+  <div>	
+    <input type="radio" name="userchoice" id="radio4" class="radio" value="Green"/>
+    <label for="radio4">Green</label>
+  </div>
+  <div>	
+    <input type="radio" name="userchoice" id="radio5" class="radio" value="White"/>
+    <label for="radio5">White</label>
+  </div>
+  <div>	
+    <input type="submit" name="userchoice" id="submit" class="submit" value="Send"/>
+  </div>
+    <input type="hidden" name="pollname" value="Color">
+  </form>
+</body>
+</html>
